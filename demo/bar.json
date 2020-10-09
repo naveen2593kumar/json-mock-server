@@ -1,0 +1,35 @@
+{
+    "method": "get",
+    "path": "/api/show-bars",
+    "response": {
+        "status": 200,
+        "headers": {},
+        "data": {
+            "result": true,
+            "response": [
+                "Rue Bourbon",
+                "Bugsy's",
+                "Brotzeit",
+                "Tipsy Pig"
+            ]
+        }
+    },
+    "response1": {
+        "status": 201,
+        "headers": {},
+        "data": {
+            "result": true,
+            "response": [
+                "1Rue Bourbon",
+                "1Bugsy's",
+                "B1rotzeit",
+                "T1ipsy Pig"
+            ]
+        }
+    },
+    "response2": {
+        "status": 404,
+        "headers": {},
+        "data": {}
+    }
+}

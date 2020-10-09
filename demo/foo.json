@@ -1,0 +1,17 @@
+{
+    "method": "get",
+    "path": "/api/get-secure-foos/",
+    "authorised": true,
+    "response": {
+        "status": 200,
+        "headers": {},
+        "data": {
+            "result": true,
+            "data": [
+                "foo",
+                "foobar",
+                "foobarbaz"
+            ]
+        }
+    }
+}
